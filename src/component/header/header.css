@@ -1,0 +1,31 @@
+.title{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+}
+.filter-wrapper{
+    border: 1px solid #f0eff5;
+    border-radius: 6px;
+    background: white;
+}
+.search-bar{
+    font-size: 20px;
+    font-weight: 600;
+    color: #aca9bb !important;
+}
+
+.search-bar:hover{
+    color: #aca9bb !important;
+}
+.arrow {
+    width: 20px;
+    height: 20px;
+    color: #9c96bf;
+    border-radius: 30px;
+    background: #f2effe;
+    font-weight: 600 !important;
+}
+
+.arrow :hover{
+    color: #9c96bf !important;
+}

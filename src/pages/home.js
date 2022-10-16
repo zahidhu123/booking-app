@@ -7,11 +7,18 @@ export default function Home() {
     return (
         <>
             <div className="container-fluid p-0">
-               <Navbar/> 
+                <Navbar />
             </div>
-            <div className="container">
-                <Header/>
+            <div className='header-wrapper'>
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-lg-11">
+                            <Header />
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </>
     )
 }

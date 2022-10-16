@@ -5,7 +5,7 @@ import './navbar.css'
 export default function Navbar() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light px-4 py-3">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light px-5 py-3 shadow-sm position-fixed w-100">
                 <div className="container-fluid">
                     <div className='d-flex align-items-center'>
                         <MdHomeFilled className='logo' />
@@ -16,7 +16,7 @@ export default function Navbar() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ps-4 me-auto mb-2 mb-lg-0">
-                            <li className="nav-item px-2">
+                            <li className="nav-item d-flex align-items-center px-2">
                                 <a className="nav-link active nav-items-box" aria-current="page" href="#">Rent</a>
                             </li>
                             <li className="nav-item px-3">
